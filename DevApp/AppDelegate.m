@@ -22,6 +22,7 @@
     [_window makeKeyAndVisible];
     MyViewController *vc = [[MyViewController alloc] init];
     _window.rootViewController = vc;
+    UIView *view = [[UIView alloc] init];
     return YES;
 }
 
